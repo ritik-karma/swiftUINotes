@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-@main
-struct swiftUINotesApp: App {
+@main ///Main file app
+struct swiftUINotesApp: App { ///Created a structues with name App and type is  App
     var body: some Scene {
         WindowGroup {
             ContentView()

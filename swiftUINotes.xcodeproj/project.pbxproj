@@ -11,6 +11,7 @@
 		F82C6CC42C967495005C1530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CC32C967495005C1530 /* ContentView.swift */; };
 		F82C6CC62C967497005C1530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82C6CC52C967497005C1530 /* Assets.xcassets */; };
 		F82C6CC92C967497005C1530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82C6CC82C967497005C1530 /* Preview Assets.xcassets */; };
+		F82C6CD12C9675E5005C1530 /* mvvm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CD02C9675E5005C1530 /* mvvm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F82C6CC32C967495005C1530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F82C6CC52C967497005C1530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82C6CC82C967497005C1530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F82C6CD02C9675E5005C1530 /* mvvm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F82C6CC02C967495005C1530 /* swiftUINotes */ = {
 			isa = PBXGroup;
 			children = (
+				F82C6CCF2C9675AC005C1530 /* Architecture */,
 				F82C6CC12C967495005C1530 /* swiftUINotesApp.swift */,
 				F82C6CC32C967495005C1530 /* ContentView.swift */,
 				F82C6CC52C967497005C1530 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F82C6CC82C967497005C1530 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F82C6CCF2C9675AC005C1530 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				F82C6CD02C9675E5005C1530 /* mvvm.swift */,
+			);
+			path = Architecture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82C6CD12C9675E5005C1530 /* mvvm.swift in Sources */,
 				F82C6CC42C967495005C1530 /* ContentView.swift in Sources */,
 				F82C6CC22C967495005C1530 /* swiftUINotesApp.swift in Sources */,
 			);
