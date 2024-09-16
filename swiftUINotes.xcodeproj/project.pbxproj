@@ -131,7 +131,7 @@
 		F82C6D512C968335005C1530 /* toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbar.swift; sourceTree = "<group>"; };
 		F82C6D532C968355005C1530 /* viewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtraction.swift; sourceTree = "<group>"; };
 		F82C6D552C96836A005C1530 /* webLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webLink.swift; sourceTree = "<group>"; };
-		F8A374192C97CBE500754EDF /* 0Rough.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0Rough.playground; sourceTree = "<group>"; };
+		F8A374192C97CBE500754EDF /* 0Rough.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 0Rough.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

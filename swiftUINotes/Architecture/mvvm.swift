@@ -65,3 +65,10 @@ Model(Data) - View(User Interaction) - ViewModel(act as a base between view and 
      •    Managing the state of the View, such as loading indicators or error messages.
      •    Example: isLoading, errorMessage.
  */
+
+
+/*
+ Two ways to approach a MVVM
+
+Either direct MVVM OR through Features -> MVVM Or V
+*/
