@@ -1,5 +1,12 @@
+[
+    {
+        "username": "ritik",
+        "occupation": "developer"
+    },
+    {
+        "username": "ayush",
+        "occupation": "developer"
+    }
 
-{
-    "username": "ritik",
-    "occupation": "developer"
-}
+
+]
