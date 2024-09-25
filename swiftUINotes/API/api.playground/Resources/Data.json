@@ -1,11 +1,26 @@
 [
     {
+        "userID": 1,
         "username": "ritik",
-        "occupation": "developer"
+        "first_name": "Ritik",
+        "last_name":"karma",
+        "dateOfBirth": "1999-04-14T00:00:00Z",
+        "occupation": {
+            "name": "iOS Dev",
+            "isActive": true
+        }
+        
     },
     {
+        "userID": 2,
         "username": "ayush",
-        "occupation": "developer"
+        "first_name": "Ayush",
+        "dateOfBirth": "1999-04-14T00:00:00Z",
+        "occupation": {
+            "name": "Software Dev",
+            "isActive": false
+        }
+
     }
 
 
