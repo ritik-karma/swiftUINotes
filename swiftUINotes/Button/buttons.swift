@@ -47,7 +47,7 @@ struct myButton: View {
                 Text("Custum Button")
                     .font(.headline)
                     .frame(width: 350, height: 50)
-                    .background(.purple)
+                    .foregroundStyle(.purple)
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     .cornerRadius(20)
