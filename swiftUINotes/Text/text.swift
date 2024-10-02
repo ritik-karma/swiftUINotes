@@ -17,7 +17,7 @@ struct text: View {
             Text("Hello swiftUiBasics! ")
                 .font(.largeTitle)  //View modifier
                 .fontWeight(.semibold)
-                .foregroundStyle(LinearGradient(colors: [.purple,.pink], startPoint: .topLeading, endPoint: .bottomTrailing))
+                .foregroundStyle(LinearGradient(colors: [.purple,.green], startPoint: .topLeading, endPoint: .bottomTrailing))
                 .italic()
                 .underline()
             

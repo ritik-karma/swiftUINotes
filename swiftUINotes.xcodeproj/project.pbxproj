@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F82C6CC22C967495005C1530 /* swiftUINotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CC12C967495005C1530 /* swiftUINotesApp.swift */; };
-		F82C6CC42C967495005C1530 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CC32C967495005C1530 /* ContentView.swift */; };
+		F82C6CC42C967495005C1530 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CC32C967495005C1530 /* BasicView.swift */; };
 		F82C6CC62C967497005C1530 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82C6CC52C967497005C1530 /* Assets.xcassets */; };
 		F82C6CC92C967497005C1530 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82C6CC82C967497005C1530 /* Preview Assets.xcassets */; };
 		F82C6CD12C9675E5005C1530 /* mvvm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CD02C9675E5005C1530 /* mvvm.swift */; };
@@ -67,12 +67,13 @@
 		F82C6D522C968335005C1530 /* toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D512C968335005C1530 /* toolbar.swift */; };
 		F82C6D542C968355005C1530 /* viewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D532C968355005C1530 /* viewExtraction.swift */; };
 		F82C6D562C96836A005C1530 /* webLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D552C96836A005C1530 /* webLink.swift */; };
+		F83EA9C92CAD88020010828E /* buttonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EA9C82CAD88020010828E /* buttonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F82C6CBE2C967495005C1530 /* swiftUINotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUINotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82C6CC12C967495005C1530 /* swiftUINotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUINotesApp.swift; sourceTree = "<group>"; };
-		F82C6CC32C967495005C1530 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F82C6CC32C967495005C1530 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
 		F82C6CC52C967497005C1530 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F82C6CC82C967497005C1530 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F82C6CD02C9675E5005C1530 /* mvvm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm.swift; sourceTree = "<group>"; };
@@ -131,8 +132,13 @@
 		F82C6D512C968335005C1530 /* toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toolbar.swift; sourceTree = "<group>"; };
 		F82C6D532C968355005C1530 /* viewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtraction.swift; sourceTree = "<group>"; };
 		F82C6D552C96836A005C1530 /* webLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webLink.swift; sourceTree = "<group>"; };
+		F83EA9C82CAD88020010828E /* buttonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonModifier.swift; sourceTree = "<group>"; };
 		F8D92BFE2CA05C00004A966C /* api.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = api.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F83EA9CA2CADB0D90010828E /* Best Practices */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Best Practices"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F82C6CBB2C967495005C1530 /* Frameworks */ = {
@@ -164,13 +170,14 @@
 		F82C6CC02C967495005C1530 /* swiftUINotes */ = {
 			isa = PBXGroup;
 			children = (
+				F83EA9CA2CADB0D90010828E /* Best Practices */,
 				F82C6D302C968135005C1530 /* actionSheet.swift */,
 				F82C6D2A2C9680FD005C1530 /* alerts.swift */,
 				F82C6D422C968255005C1530 /* API */,
 				F82C6CCF2C9675AC005C1530 /* Architecture */,
 				F82C6CC52C967497005C1530 /* Assets.xcassets */,
 				F82C6CEB2C9678B0005C1530 /* Button */,
-				F82C6CC32C967495005C1530 /* ContentView.swift */,
+				F82C6CC32C967495005C1530 /* BasicView.swift */,
 				F82C6D322C96814A005C1530 /* controlFlow.swift */,
 				F82C6D342C96815F005C1530 /* doTryCatch.swift */,
 				F82C6CD22C967658005C1530 /* Exercise */,
@@ -359,6 +366,7 @@
 			children = (
 				F82C6D1D2C96802C005C1530 /* viewBuilder.swift */,
 				F82C6D1F2C96804A005C1530 /* viewModifiers.swift */,
+				F83EA9C82CAD88020010828E /* buttonModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -395,6 +403,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F83EA9CA2CADB0D90010828E /* Best Practices */,
 			);
 			name = swiftUINotes;
 			productName = swiftUINotes;
@@ -476,7 +487,7 @@
 				F82C6D062C967A6E005C1530 /* remainingWrappers.swift in Sources */,
 				F82C6D1B2C967F38005C1530 /* listWithSwipe.swift in Sources */,
 				F82C6D082C967A91005C1530 /* environmentObject.swift in Sources */,
-				F82C6CC42C967495005C1530 /* ContentView.swift in Sources */,
+				F82C6CC42C967495005C1530 /* BasicView.swift in Sources */,
 				F82C6D202C96804A005C1530 /* viewModifiers.swift in Sources */,
 				F82C6D312C968135005C1530 /* actionSheet.swift in Sources */,
 				F82C6D332C96814A005C1530 /* controlFlow.swift in Sources */,
@@ -494,6 +505,7 @@
 				F82C6D442C96827B005C1530 /* REST_API.swift in Sources */,
 				F82C6D102C967E35005C1530 /* lazyGrid.swift in Sources */,
 				F82C6D3B2C9681DF005C1530 /* loop.swift in Sources */,
+				F83EA9C92CAD88020010828E /* buttonModifier.swift in Sources */,
 				F82C6D222C96808A005C1530 /* scroll.swift in Sources */,
 				F82C6CD82C96769E005C1530 /* users.swift in Sources */,
 				F82C6CF22C967917005C1530 /* colourPicker.swift in Sources */,

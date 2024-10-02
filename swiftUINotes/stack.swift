@@ -80,6 +80,8 @@ struct Stacks: View {
             }
             .padding()
         }
+        .navigationTitle("yeee")
+        .toolbarRole(.editor) //editor will remove "Back" text on back button
     }
     
 }

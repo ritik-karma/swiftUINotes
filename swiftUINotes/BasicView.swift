@@ -2,12 +2,12 @@
 
 import SwiftUI
 
-struct ContentView: View { ///Created a structues with name ContentView and type is View (Predifined) . In which every element initially having predefined size frame.
+struct BasicView: View { ///Created a structues with name ContentView and type is View (Predifined) . In which every element initially having predefined size frame.
     
     ///above the body we create an array or func or variable  or other stuff because after body there will be views
     
     var body: some View {   ///This body is type of view and its returning Text view .also it is opaque type view(some clause is opaque type). It only returns view but in some cases like Button where we are performing some action we can use var also change it where we should use only code not views.
-        ///some view means i don't know what it will return but it will return some view
+        ///some view means i don't know what it will return but it will return some view (means it can be any type of view
            ///Inside the curly is 'computed property' (update automatically when the dependencies is changes) which is giving to the variable body which has a type of some view
        
         
@@ -24,18 +24,18 @@ struct ContentView: View { ///Created a structues with name ContentView and type
 }
 
 #Preview {
-    ContentView()
+    BasicView()
 }
 
 ///We can go preiview oreintation with  code also
 ///Created 3 more preciews
 struct ContentView_Provider: PreviewProvider{
     static var previews: some View{
-        ContentView()
+        BasicView()
             .previewDevice("iPhone 12 Pro")
-        ContentView()
+        BasicView()
             .preferredColorScheme(.dark)
-        ContentView()
+        BasicView()
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

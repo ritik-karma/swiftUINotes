@@ -74,6 +74,16 @@ struct myButton: View {
         .frame(width: 100, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
         .padding()
         
+        Button{
+            
+        } label: {
+            Text("Login")
+                .frame(maxWidth: .infinity, idealHeight: 50)
+            //ideal height can be adjusted if necessary
+                .foregroundStyle(.white)
+                .background(Capsule().fill(.brown))
+        }
+        
     
     }
 }
