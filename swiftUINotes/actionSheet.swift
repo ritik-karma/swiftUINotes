@@ -11,10 +11,11 @@ struct actionSheet: View {
     @State var userSelection = ""
     @State var showingConfirmation = false
     var body: some View {
+        
         Text("User Selection is \(userSelection)")
         
-        
         Button("Action Sheet"){
+            
             showingConfirmation = true
         }
         .buttonStyle(BorderedButtonStyle())

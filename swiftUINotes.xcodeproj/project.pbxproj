@@ -19,7 +19,6 @@
 		F82C6CE22C967790005C1530 /* textFile.text in Resources */ = {isa = PBXBuildFile; fileRef = F82C6CE12C967790005C1530 /* textFile.text */; };
 		F82C6CE42C9677F0005C1530 /* readAPIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CE32C9677F0005C1530 /* readAPIData.swift */; };
 		F82C6CE62C967828005C1530 /* fileCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CE52C967828005C1530 /* fileCreation.swift */; };
-		F82C6CEA2C967869005C1530 /* photoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CE92C967869005C1530 /* photoPicker.swift */; };
 		F82C6CED2C9678B9005C1530 /* buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CEC2C9678B9005C1530 /* buttons.swift */; };
 		F82C6CEF2C9678C4005C1530 /* myLikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CEE2C9678C4005C1530 /* myLikes.swift */; };
 		F82C6CF22C967917005C1530 /* colourPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6CF12C967917005C1530 /* colourPicker.swift */; };
@@ -68,6 +67,7 @@
 		F82C6D542C968355005C1530 /* viewExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D532C968355005C1530 /* viewExtraction.swift */; };
 		F82C6D562C96836A005C1530 /* webLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D552C96836A005C1530 /* webLink.swift */; };
 		F83EA9C92CAD88020010828E /* buttonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EA9C82CAD88020010828E /* buttonModifier.swift */; };
+		F84014D02CCFB3BC00752C0E /* photoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,7 +84,6 @@
 		F82C6CE12C967790005C1530 /* textFile.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = textFile.text; sourceTree = "<group>"; };
 		F82C6CE32C9677F0005C1530 /* readAPIData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readAPIData.swift; sourceTree = "<group>"; };
 		F82C6CE52C967828005C1530 /* fileCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fileCreation.swift; sourceTree = "<group>"; };
-		F82C6CE92C967869005C1530 /* photoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoPicker.swift; sourceTree = "<group>"; };
 		F82C6CEC2C9678B9005C1530 /* buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttons.swift; sourceTree = "<group>"; };
 		F82C6CEE2C9678C4005C1530 /* myLikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLikes.swift; sourceTree = "<group>"; };
 		F82C6CF12C967917005C1530 /* colourPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourPicker.swift; sourceTree = "<group>"; };
@@ -133,6 +132,7 @@
 		F82C6D532C968355005C1530 /* viewExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExtraction.swift; sourceTree = "<group>"; };
 		F82C6D552C96836A005C1530 /* webLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webLink.swift; sourceTree = "<group>"; };
 		F83EA9C82CAD88020010828E /* buttonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonModifier.swift; sourceTree = "<group>"; };
+		F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoLibrary.swift; sourceTree = "<group>"; };
 		F8D92BFE2CA05C00004A966C /* api.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = api.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -272,7 +272,7 @@
 		F82C6CE82C96785D005C1530 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				F82C6CE92C967869005C1530 /* photoPicker.swift */,
+				F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -513,7 +513,7 @@
 				F82C6D272C9680D3005C1530 /* text.swift in Sources */,
 				F82C6CC22C967495005C1530 /* swiftUINotesApp.swift in Sources */,
 				F82C6CFB2C967993005C1530 /* positionView.swift in Sources */,
-				F82C6CEA2C967869005C1530 /* photoPicker.swift in Sources */,
+				F84014D02CCFB3BC00752C0E /* photoLibrary.swift in Sources */,
 				F82C6D012C967A07005C1530 /* stateBinding.swift in Sources */,
 				F82C6D482C9682B3005C1530 /* sheet.swift in Sources */,
 				F82C6D192C967F22005C1530 /* listWithSearch.swift in Sources */,

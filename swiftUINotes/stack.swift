@@ -56,6 +56,10 @@ struct Stacks: View {
                     }
                     
                 }
+                
+
+                
+                
  //MARK: -NavigationLink
                 HStack {
                     NavigationLink{
