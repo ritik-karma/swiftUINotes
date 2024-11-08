@@ -26,7 +26,7 @@ struct Stacks: View {
                     Text("world!")
                     
                 }
-                HStack(alignment: .bottom, spacing: 190) {//must alignment before spacing
+                HStack(alignment: .firstTextBaseline, spacing: 190) {//must alignment before spacing
                     Rectangle()
                         .fill(.yellow)// can't use fill after .frame
                         .frame(width: 50, height: 100)

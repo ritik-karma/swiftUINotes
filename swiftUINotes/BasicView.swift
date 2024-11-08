@@ -1,4 +1,4 @@
-
+/* SwiftUi is not like a UiKit which adds property instead swiftUi wrapping views */
 
 import SwiftUI
 
