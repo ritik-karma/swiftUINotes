@@ -24,7 +24,9 @@ struct progress: View {
                 
             }
         }
+        ProgressView() //Rounding circle
     }
+   
 }
 
 #Preview {

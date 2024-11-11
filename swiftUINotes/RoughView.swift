@@ -12,6 +12,7 @@ struct RoughView: View {
         Image("apple icon")
             .resizable()
             .scaledToFit()
+        
             
     }
 }
