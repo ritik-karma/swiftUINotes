@@ -23,7 +23,7 @@ struct text: View {
             
             
             
-            Text("This is the subheadline which can be using the following also i seted line limit to 2")
+            Text("This is the *subheadline* which can be using the following also i seted line limit to 2")
                 .font(.subheadline)
                 .multilineTextAlignment(.center)
                 .lineLimit(1)
