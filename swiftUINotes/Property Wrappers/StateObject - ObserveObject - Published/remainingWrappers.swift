@@ -5,6 +5,7 @@
 /// @StateObject private var thing = Something()
 /// @ObservedObject private var thing: Something
 /// *   @Published is used inside observableObject  class to automatically notify subscribers when      a property’s value changes.
+///  @Environment can be accessible anywhere within the app
 
 
 

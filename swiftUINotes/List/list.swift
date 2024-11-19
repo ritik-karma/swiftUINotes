@@ -1,6 +1,6 @@
 
 ///Similar to ScrolView but more organised like a list
-///can add any item in list button, slidder, image etc
+///can add any item in list butto, slidder, image etc
 ///Can run loop in list without using forEach clause also but not recomended
 ///similar to form but better for similar or related types (showcasing)
 ///If want to add multi item in a row can also use grid
@@ -23,7 +23,7 @@ struct list: View {
     var body: some View {
         NavigationStack{
             
-            ///List 1st
+            //MARK: List 1st
             List {
                 Section ("Items = \(samples.count)"){
                     ForEach(samples, id: \.self) { i in
@@ -57,7 +57,7 @@ struct list: View {
                         .navigationTitle("Items")
             
         }
-        ///List 2nd
+        //MARK:  List 2nd
         NavigationStack{
             List {
                 Section{
@@ -83,6 +83,11 @@ struct list: View {
                 Text("This is footer")
             }
             
+            }
+            
+            //MARK: Another method of list
+            List(samples, id: \.self){ item in
+                Text(item)
             }
           
             

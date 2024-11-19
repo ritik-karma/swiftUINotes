@@ -39,6 +39,7 @@ struct RoughView: View {
                         // Additional UI elements or images can be added here
                     }
                     .padding()
+            
                     .background(Color(UIColor(red: 240/255, green: 247/255, blue: 244/255, alpha: 1.0))) // Soft green background
                     .cornerRadius(10)
                     .shadow(radius: 5)

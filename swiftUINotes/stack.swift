@@ -102,3 +102,8 @@ struct Stacks: View {
  .sdkjflka
  
  */
+
+
+
+
+//For some more navigation stack go through jsonReder file

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "John Doe",
+    "designation": "Software Engineer",
+    "email": "john.doe@example.com"
+  },
+  {
+    "name": "Jane Smith",
+    "designation": "Product Manager",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "name": "Michael Brown",
+    "designation": "Data Scientist",
+    "email": "michael.brown@example.com"
+  },
+  {
+    "name": "Emily Davis",
+    "designation": "UI/UX Designer",
+    "email": "emily.davis@example.com"
+  },
+  {
+    "name": "Robert Wilson",
+    "designation": "Cybersecurity Analyst",
+    "email": "robert.wilson@example.com"
+  }
+]
