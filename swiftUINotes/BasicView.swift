@@ -9,6 +9,7 @@ struct BasicView: View { ///Created a structues with name ContentView and type i
     var body: some View {   ///This body is type of view and its returning Text view .also it is opaque type view(some clause is opaque type). It only returns view but in some cases like Button where we are performing some action we can use var also change it where we should use only code not views.
         ///some view means i don't know what it will return but it will return some view (means it can be any type of view
            ///Inside the curly is 'computed property' (update automatically when the dependencies is changes) which is giving to the variable body which has a type of some view
+        ///Here we can create some custom types also like we did in toggleStyle
        
         
         

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct toggle: View {
     @State var isOn = false
+    @State var isCheckBox = false
     
     var body: some View {
         VStack{
@@ -19,7 +20,7 @@ struct toggle: View {
                 .font(.largeTitle)
                 .foregroundStyle(isOn ? .yellow: .black)
         
-            
+            Text("-----------------------------")
 //MARK: toggle
             Toggle(isOn: $isOn, label: {
                 Text("Switch")
@@ -28,7 +29,16 @@ struct toggle: View {
                     .background(.gray)
                     .clipShape(RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/))
             })
+            .padding(.top, 45)
             .labelsHidden()
+            
+//toggle in a button style
+            Toggle(isOn: $isOn) {
+                Text("toggle button")
+            }
+            .toggleStyle(.button)
+            .padding()
+
             
             
             
@@ -44,13 +54,53 @@ struct toggle: View {
                 .padding()
             }
             
-
+            Text("-------CheckBox-------")
             
-           
+            Button{
+                isCheckBox.toggle()
+            } label: {
+                if isCheckBox {
+                    Image(systemName: "checkmark.circle.fill")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                } else {
+                    Image(systemName: "checkmark.circle")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                    
+                }
+            }
+            
+            
+            //MARK: Toggle with custom type
+            
+            Toggle(isOn: $isCheckBox) {
+                Text("I agree to Terms and Conditions")
+            }
+            .toggleStyle(CheckBoxToggleStyle())
+            .padding()
             
         }
     }
+    // Custom Toggle View
+     struct CheckBoxToggleStyle: ToggleStyle {
+         func makeBody(configuration: Configuration) -> some View {
+             HStack {
+                 configuration.label
+                 
+                 //   Spacer()
+                 Image(systemName: configuration.isOn  ? "checkmark.square" : "square")
+                     .resizable()
+                     .frame(width: 30, height: 30)
+                     .onTapGesture {
+                         configuration.isOn.toggle()
+                     }
+             }
+         }
+         
+     }
 }
+
 
 #Preview {
     toggle()

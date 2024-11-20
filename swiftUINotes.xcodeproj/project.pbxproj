@@ -145,6 +145,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F83EA9CA2CADB0D90010828E /* Best Practices */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Best Practices"; sourceTree = "<group>"; };
 		F876C02C2CEC60C500C83F11 /* Json Reader */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Json Reader"; sourceTree = "<group>"; };
+		F8AC81832CEDFE2C00AF604E /* Animation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Animation; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,16 +178,16 @@
 		F82C6CC02C967495005C1530 /* swiftUINotes */ = {
 			isa = PBXGroup;
 			children = (
-				F876C02C2CEC60C500C83F11 /* Json Reader */,
-				F876C0272CEC267900C83F11 /* asyncImageD.swift */,
-				F83EA9CA2CADB0D90010828E /* Best Practices */,
+				F8AC81832CEDFE2C00AF604E /* Animation */,
 				F82C6D302C968135005C1530 /* actionSheet.swift */,
 				F82C6D2A2C9680FD005C1530 /* alerts.swift */,
 				F82C6D422C968255005C1530 /* API */,
 				F82C6CCF2C9675AC005C1530 /* Architecture */,
 				F82C6CC52C967497005C1530 /* Assets.xcassets */,
-				F82C6CEB2C9678B0005C1530 /* Button */,
+				F876C0272CEC267900C83F11 /* asyncImageD.swift */,
 				F82C6CC32C967495005C1530 /* BasicView.swift */,
+				F83EA9CA2CADB0D90010828E /* Best Practices */,
+				F82C6CEB2C9678B0005C1530 /* Button */,
 				F82C6D322C96814A005C1530 /* controlFlow.swift */,
 				F82C6D342C96815F005C1530 /* doTryCatch.swift */,
 				F82C6CD22C967658005C1530 /* Exercise */,
@@ -195,6 +196,7 @@
 				F82C6D2C2C968110005C1530 /* gestures.swift */,
 				F82C6D0E2C967E23005C1530 /* Grid */,
 				F82C6D382C9681A6005C1530 /* image&SafeArea.swift */,
+				F876C02C2CEC60C500C83F11 /* Json Reader */,
 				F82C6D152C967EFE005C1530 /* List */,
 				F82C6D3A2C9681DF005C1530 /* loop.swift */,
 				F82C6D1C2C96801B005C1530 /* Modifiers */,
@@ -206,8 +208,10 @@
 				F82C6CC72C967497005C1530 /* Preview Content */,
 				F82C6D402C96823D005C1530 /* progress.swift */,
 				F82C6CFC2C9679CD005C1530 /* Property Wrappers */,
+				F8908D562CDC82E000A855DA /* RoughView.swift */,
 				F82C6D212C96808A005C1530 /* scroll.swift */,
 				F82C6D452C9682A0005C1530 /* shapes.swift */,
+				F876C02A2CEC4B7000C83F11 /* shareLink.swift */,
 				F82C6D472C9682B3005C1530 /* sheet.swift */,
 				F82C6D492C9682C7005C1530 /* slider.swift */,
 				F82C6D4B2C968302005C1530 /* stack.swift */,
@@ -220,8 +224,6 @@
 				F82C6CE72C96784F005C1530 /* Use of Hardware */,
 				F82C6D532C968355005C1530 /* viewExtraction.swift */,
 				F82C6D552C96836A005C1530 /* webLink.swift */,
-				F8908D562CDC82E000A855DA /* RoughView.swift */,
-				F876C02A2CEC4B7000C83F11 /* shareLink.swift */,
 			);
 			path = swiftUINotes;
 			sourceTree = "<group>";
@@ -418,6 +420,7 @@
 			fileSystemSynchronizedGroups = (
 				F83EA9CA2CADB0D90010828E /* Best Practices */,
 				F876C02C2CEC60C500C83F11 /* Json Reader */,
+				F8AC81832CEDFE2C00AF604E /* Animation */,
 			);
 			name = swiftUINotes;
 			productName = swiftUINotes;
