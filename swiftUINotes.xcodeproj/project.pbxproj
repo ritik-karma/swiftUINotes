@@ -56,7 +56,6 @@
 		F82C6D3D2C9681FE005C1530 /* padding_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D3C2C9681FE005C1530 /* padding_Spacer.swift */; };
 		F82C6D3F2C96822E005C1530 /* popOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D3E2C96822E005C1530 /* popOver.swift */; };
 		F82C6D412C96823D005C1530 /* progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D402C96823D005C1530 /* progress.swift */; };
-		F82C6D442C96827B005C1530 /* REST_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D432C96827B005C1530 /* REST_API.swift */; };
 		F82C6D462C9682A0005C1530 /* shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D452C9682A0005C1530 /* shapes.swift */; };
 		F82C6D482C9682B3005C1530 /* sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D472C9682B3005C1530 /* sheet.swift */; };
 		F82C6D4A2C9682C8005C1530 /* slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D492C9682C7005C1530 /* slider.swift */; };
@@ -124,7 +123,6 @@
 		F82C6D3C2C9681FE005C1530 /* padding_Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = padding_Spacer.swift; sourceTree = "<group>"; };
 		F82C6D3E2C96822E005C1530 /* popOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popOver.swift; sourceTree = "<group>"; };
 		F82C6D402C96823D005C1530 /* progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progress.swift; sourceTree = "<group>"; };
-		F82C6D432C96827B005C1530 /* REST_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_API.swift; sourceTree = "<group>"; };
 		F82C6D452C9682A0005C1530 /* shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapes.swift; sourceTree = "<group>"; };
 		F82C6D472C9682B3005C1530 /* sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheet.swift; sourceTree = "<group>"; };
 		F82C6D492C9682C7005C1530 /* slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider.swift; sourceTree = "<group>"; };
@@ -146,6 +144,7 @@
 		F83EA9CA2CADB0D90010828E /* Best Practices */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Best Practices"; sourceTree = "<group>"; };
 		F876C02C2CEC60C500C83F11 /* Json Reader */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Json Reader"; sourceTree = "<group>"; };
 		F8AC81832CEDFE2C00AF604E /* Animation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Animation; sourceTree = "<group>"; };
+		F8C989E32CEEF0280047218C /* Api read with async await */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Api read with async await"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,7 +395,7 @@
 		F82C6D422C968255005C1530 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				F82C6D432C96827B005C1530 /* REST_API.swift */,
+				F8C989E32CEEF0280047218C /* Api read with async await */,
 				F8D92BFE2CA05C00004A966C /* api.playground */,
 			);
 			path = API;
@@ -421,6 +420,7 @@
 				F83EA9CA2CADB0D90010828E /* Best Practices */,
 				F876C02C2CEC60C500C83F11 /* Json Reader */,
 				F8AC81832CEDFE2C00AF604E /* Animation */,
+				F8C989E32CEEF0280047218C /* Api read with async await */,
 			);
 			name = swiftUINotes;
 			productName = swiftUINotes;
@@ -517,7 +517,6 @@
 				F82C6CF62C967950005C1530 /* datePicker.swift in Sources */,
 				F82C6D1E2C96802C005C1530 /* viewBuilder.swift in Sources */,
 				F82C6D172C967F09005C1530 /* list.swift in Sources */,
-				F82C6D442C96827B005C1530 /* REST_API.swift in Sources */,
 				F82C6D102C967E35005C1530 /* lazyGrid.swift in Sources */,
 				F82C6D3B2C9681DF005C1530 /* loop.swift in Sources */,
 				F83EA9C92CAD88020010828E /* buttonModifier.swift in Sources */,
