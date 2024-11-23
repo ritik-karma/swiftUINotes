@@ -16,7 +16,8 @@ struct User: Codable {
     let occupation: Occupation
     let dateOfBirth: Date
     
-    //Enum will be used for mapping JSon keys & struct var if JSON key's are diff from structs keys like in this case is id/userID.
+    //Enum will be used for mapping JSon keys & struct var if JSON key's are diff from structs ke
+    ys like in this case is id/userID.
     enum CodingKeys: String, CodingKey {
         case id = "userID"
         case firstName
