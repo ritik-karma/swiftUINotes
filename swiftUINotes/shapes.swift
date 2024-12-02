@@ -17,7 +17,9 @@ struct shapes: View {
              .clipShape(RoundedRectangle(cornerRadius: 10))
              .shadow(color: .gray, radius: 10, x: -5, y: 5)
             Spacer(minLength: 10)
-             
+            UnevenRoundedRectangle(topLeadingRadius: 90, bottomLeadingRadius: 20, bottomTrailingRadius: 70, topTrailingRadius: 0)
+                .fill(.purple)
+                .frame(width: 320, height: 150)
             Capsule()
                 .fill(.black)
                 .frame(width: 200, height: 64)
