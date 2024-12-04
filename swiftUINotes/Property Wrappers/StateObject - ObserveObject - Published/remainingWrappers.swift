@@ -1,11 +1,8 @@
 
 
-//MARK: Same ex with custom datatype class
-
-/// @StateObject private var thing = Something()
-/// @ObservedObject private var thing: Something
-/// *   @Published is used inside observableObject  class to automatically notify subscribers when      a property’s value changes.
-///  @Environment can be accessible anywhere within the app
+///* ObservableObject  is a protocol that enables data to be shared across multiple views in your app while maintaining synchronization.
+/// * @Published is used inside observableObject  class to automatically notify subscribers when      a property’s value changes.
+///   @Environment can be accessible anywhere within the app
 
 
 

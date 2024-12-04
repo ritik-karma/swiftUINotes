@@ -62,6 +62,11 @@ struct Stacks: View {
                 
  //MARK: -NavigationLink
                 HStack {
+                    
+
+                    
+                    
+                    
                     NavigationLink{
                         imageAndSafearea()
                     } label: {
@@ -80,6 +85,13 @@ struct Stacks: View {
                         }
                     }
                     .foregroundStyle(.purple)
+                    
+                    //MARK: Another method of writing N.L. (optimal)
+                    //                    NavigationLink(destination: imageAndSafearea()) {
+                    //                        Text("luis lancha")
+                    //                    }
+                    
+                    
                 }
             }
             .padding()

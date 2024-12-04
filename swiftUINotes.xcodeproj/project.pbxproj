@@ -68,10 +68,10 @@
 		F83E9ECC2CF1E7040062655C /* gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E9ECB2CF1E7040062655C /* gradient.swift */; };
 		F83E9EF42CF32F040062655C /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E9EF32CF32F040062655C /* timer.swift */; };
 		F83EA9C92CAD88020010828E /* buttonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83EA9C82CAD88020010828E /* buttonModifier.swift */; };
-		F84014D02CCFB3BC00752C0E /* photoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */; };
 		F876C0282CEC267900C83F11 /* asyncImageD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876C0272CEC267900C83F11 /* asyncImageD.swift */; };
 		F876C02B2CEC4B7000C83F11 /* shareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876C02A2CEC4B7000C83F11 /* shareLink.swift */; };
 		F8908D572CDC82E000A855DA /* RoughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8908D562CDC82E000A855DA /* RoughView.swift */; };
+		F8D98AA12D00971800DA0053 /* onDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D98AA02D00971800DA0053 /* onDisappear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,11 +137,11 @@
 		F83E9ECB2CF1E7040062655C /* gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradient.swift; sourceTree = "<group>"; };
 		F83E9EF32CF32F040062655C /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 		F83EA9C82CAD88020010828E /* buttonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonModifier.swift; sourceTree = "<group>"; };
-		F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoLibrary.swift; sourceTree = "<group>"; };
 		F876C0272CEC267900C83F11 /* asyncImageD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asyncImageD.swift; sourceTree = "<group>"; };
 		F876C02A2CEC4B7000C83F11 /* shareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareLink.swift; sourceTree = "<group>"; };
 		F8908D562CDC82E000A855DA /* RoughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoughView.swift; sourceTree = "<group>"; };
 		F8D92BFE2CA05C00004A966C /* apiEnDe.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = apiEnDe.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F8D98AA02D00971800DA0053 /* onDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onDisappear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -149,6 +149,7 @@
 		F876C02C2CEC60C500C83F11 /* Json Reader */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Json Reader"; sourceTree = "<group>"; };
 		F8AC81832CEDFE2C00AF604E /* Animation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Animation; sourceTree = "<group>"; };
 		F8C989E32CEEF0280047218C /* Api read with async await */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Api read with async await"; sourceTree = "<group>"; };
+		F8D98AA22D009C3200DA0053 /* Frameworks */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Frameworks; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +182,8 @@
 		F82C6CC02C967495005C1530 /* swiftUINotes */ = {
 			isa = PBXGroup;
 			children = (
+				F8D98AA22D009C3200DA0053 /* Frameworks */,
+				F8D98AA02D00971800DA0053 /* onDisappear.swift */,
 				F8AC81832CEDFE2C00AF604E /* Animation */,
 				F82C6D302C968135005C1530 /* actionSheet.swift */,
 				F82C6D2A2C9680FD005C1530 /* alerts.swift */,
@@ -223,7 +226,6 @@
 				F82C6D252C9680CB005C1530 /* Text */,
 				F82C6D4F2C968324005C1530 /* toggle.swift */,
 				F82C6D512C968335005C1530 /* toolbar.swift */,
-				F82C6CE72C96784F005C1530 /* Use of Hardware */,
 				F82C6D532C968355005C1530 /* viewExtraction.swift */,
 				F82C6D552C96836A005C1530 /* webLink.swift */,
 				F83E9ECB2CF1E7040062655C /* gradient.swift */,
@@ -276,22 +278,6 @@
 				F82C6CE12C967790005C1530 /* textFile.text */,
 			);
 			path = "Retrive Data";
-			sourceTree = "<group>";
-		};
-		F82C6CE72C96784F005C1530 /* Use of Hardware */ = {
-			isa = PBXGroup;
-			children = (
-				F82C6CE82C96785D005C1530 /* Camera */,
-			);
-			path = "Use of Hardware";
-			sourceTree = "<group>";
-		};
-		F82C6CE82C96785D005C1530 /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				F84014CF2CCFB3BC00752C0E /* photoLibrary.swift */,
-			);
-			path = Camera;
 			sourceTree = "<group>";
 		};
 		F82C6CEB2C9678B0005C1530 /* Button */ = {
@@ -427,6 +413,7 @@
 				F876C02C2CEC60C500C83F11 /* Json Reader */,
 				F8AC81832CEDFE2C00AF604E /* Animation */,
 				F8C989E32CEEF0280047218C /* Api read with async await */,
+				F8D98AA22D009C3200DA0053 /* Frameworks */,
 			);
 			name = swiftUINotes;
 			productName = swiftUINotes;
@@ -508,6 +495,7 @@
 				F82C6D392C9681A6005C1530 /* image&SafeArea.swift in Sources */,
 				F82C6CD62C967691005C1530 /* splitScreen.swift in Sources */,
 				F82C6D292C9680E6005C1530 /* textEditor.swift in Sources */,
+				F8D98AA12D00971800DA0053 /* onDisappear.swift in Sources */,
 				F82C6D062C967A6E005C1530 /* remainingWrappers.swift in Sources */,
 				F82C6D1B2C967F38005C1530 /* listWithSwipe.swift in Sources */,
 				F82C6D082C967A91005C1530 /* environmentObject.swift in Sources */,
@@ -539,7 +527,6 @@
 				F876C0282CEC267900C83F11 /* asyncImageD.swift in Sources */,
 				F82C6CC22C967495005C1530 /* swiftUINotesApp.swift in Sources */,
 				F82C6CFB2C967993005C1530 /* positionView.swift in Sources */,
-				F84014D02CCFB3BC00752C0E /* photoLibrary.swift in Sources */,
 				F82C6D012C967A07005C1530 /* stateBinding.swift in Sources */,
 				F876C02B2CEC4B7000C83F11 /* shareLink.swift in Sources */,
 				F82C6D482C9682B3005C1530 /* sheet.swift in Sources */,
