@@ -8,44 +8,83 @@
 
 import SwiftUI
 
-class Something: ObservableObject {
-    @Published var num = 0
+class Numbers: ObservableObject {
+    @Published var num: Int = 0
 }
 ///Created custom type with the help of ObservableObject so we can use it later
 
+
+
 struct remainingWrappers: View {
-    @StateObject var thing = Something()
+    @StateObject var number = Numbers()
     //Can't use State because using custom type
     
     var body: some View {
-            VStack(spacing: 100){
-                VStack{
-                    Button("Increse to \(thing.num + 1)"){
-                        if (thing.num < 10) {
-                            thing.num += 1
-                        }
-                    }
-                    .font(.title)
-                    .padding()
-                    Text("Number = \(thing)")
-                    footerView1(bindingNum: thing)
-                }
-                .background(.white)
-                .padding()
-                .background(.yellow)
+        VStack(spacing: 100){
+            VStack{
                 
+                Text("\(number.num)")
+                Button{
+                    number.num = Int.random(in: 0...50)
+                } label: {
+                    Text("Generate number")
+                    
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.blue)
+                HStack{
+                    secondview()
+                    secondView2()
+                }
+                    .environmentObject(number)
+                ThirdView(number: Numbers())
+                FourthView(value: number.num)
+                //taking value from this view
+                    
+                
+            }
             
+            .padding(40)
+            .background(Color.yellow.clipShape(.rect(cornerRadius: 40)))
         }
+        
+        
+    }
+    
+}
+
+//MARK: environment object
+struct secondview: View {
+    @EnvironmentObject var number: Numbers
+    ///If give @observableObject instead Env.. then it stays 0 only
+    var body: some View {
+        Text("\(number.num)")
+       
     }
 }
 
-
-struct footerView1: View {
-    @ObservedObject var bindingNum: Something
+struct secondView2: View {
+    @EnvironmentObject var number: Numbers
     var body: some View {
-        Button("End"){
-            bindingNum.num = 0
-        }
+        Text("\(number.num)")
+    }
+}
+
+//MARK: Observed object
+struct ThirdView: View {
+    @ObservedObject var number: Numbers
+    var body: some View {
+        Text("\(number.num)")
+    }
+}
+
+//MARK: share value
+struct FourthView: View {
+    var value: Int
+    ///will take value from that where this view used
+    var body: some View {
+        Text("\(value)")
+
     }
 }
 

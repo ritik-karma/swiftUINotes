@@ -29,7 +29,6 @@
 		F82C6D012C967A07005C1530 /* stateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D002C967A07005C1530 /* stateBinding.swift */; };
 		F82C6D032C967A20005C1530 /* ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D022C967A20005C1530 /* ex.swift */; };
 		F82C6D062C967A6E005C1530 /* remainingWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D052C967A6E005C1530 /* remainingWrappers.swift */; };
-		F82C6D082C967A91005C1530 /* environmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D072C967A91005C1530 /* environmentObject.swift */; };
 		F82C6D0B2C967ADC005C1530 /* appStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D0A2C967ADC005C1530 /* appStorage.swift */; };
 		F82C6D0D2C967B22005C1530 /* userDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D0C2C967B22005C1530 /* userDefault.swift */; };
 		F82C6D102C967E35005C1530 /* lazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82C6D0F2C967E35005C1530 /* lazyGrid.swift */; };
@@ -98,7 +97,6 @@
 		F82C6D002C967A07005C1530 /* stateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateBinding.swift; sourceTree = "<group>"; };
 		F82C6D022C967A20005C1530 /* ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex.swift; sourceTree = "<group>"; };
 		F82C6D052C967A6E005C1530 /* remainingWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remainingWrappers.swift; sourceTree = "<group>"; };
-		F82C6D072C967A91005C1530 /* environmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = environmentObject.swift; sourceTree = "<group>"; };
 		F82C6D0A2C967ADC005C1530 /* appStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appStorage.swift; sourceTree = "<group>"; };
 		F82C6D0C2C967B22005C1530 /* userDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefault.swift; sourceTree = "<group>"; };
 		F82C6D0F2C967E35005C1530 /* lazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazyGrid.swift; sourceTree = "<group>"; };
@@ -313,7 +311,6 @@
 			children = (
 				F82C6D042C967A40005C1530 /* StateObject - ObserveObject - Published */,
 				F82C6CFD2C9679DB005C1530 /* State & Binding */,
-				F82C6D072C967A91005C1530 /* environmentObject.swift */,
 			);
 			path = "Property Wrappers";
 			sourceTree = "<group>";
@@ -498,7 +495,6 @@
 				F8D98AA12D00971800DA0053 /* onDisappear.swift in Sources */,
 				F82C6D062C967A6E005C1530 /* remainingWrappers.swift in Sources */,
 				F82C6D1B2C967F38005C1530 /* listWithSwipe.swift in Sources */,
-				F82C6D082C967A91005C1530 /* environmentObject.swift in Sources */,
 				F82C6CC42C967495005C1530 /* BasicView.swift in Sources */,
 				F82C6D202C96804A005C1530 /* viewModifiers.swift in Sources */,
 				F82C6D312C968135005C1530 /* actionSheet.swift in Sources */,
