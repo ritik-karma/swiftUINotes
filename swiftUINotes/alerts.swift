@@ -1,6 +1,6 @@
 
 //
-//  By sean allen alerts video on YT
+// By sean allen alerts video on YT
 // for login error alerts go through that video
 
 import SwiftUI
@@ -12,9 +12,6 @@ struct Alerts: View {
     
     var body: some View {
         VStack(spacing: 40){
-            
-            
-            
             Button("Fetch Data"){
                 isShowingBasicAlert = true
             }
@@ -48,11 +45,6 @@ struct Alerts: View {
             } message: {
                 Text("enter rthe value")
             }
-
-            
-            
-            
-
         }
         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
     }
