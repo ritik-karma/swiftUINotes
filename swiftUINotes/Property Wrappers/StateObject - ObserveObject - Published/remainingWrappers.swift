@@ -1,15 +1,17 @@
 
 
-///* ObservableObject  is a protocol that enables data to be shared across multiple views in your app while maintaining synchronization.
-/// * @Published is used inside observableObject  class to automatically notify subscribers when      a property’s value changes.
-///   @Environment can be accessible anywhere within the app
+
+
+
 
 
 
 import SwiftUI
 
 class Numbers: ObservableObject {
+    ///* ObservableObject  is a protocol that enables data to be shared across multiple views in your app while maintaining synchronization.
     @Published var num: Int = 0
+    /// * @Published property is used inside observableObject  class to automatically notify subscribers when   a property’s value changes.
 }
 ///Created custom type with the help of ObservableObject so we can use it later
 
@@ -17,7 +19,10 @@ class Numbers: ObservableObject {
 
 struct remainingWrappers: View {
     @StateObject var number = Numbers()
+   
     //Can't use State because using custom type
+    ///State obj only init when app restart but observeObj initi whenever view is refreshed
+    ///In this case we can also use observedObj but we choose this because have to retain the value (drawback)
     
     var body: some View {
         VStack(spacing: 100){
@@ -32,11 +37,11 @@ struct remainingWrappers: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.blue)
-                HStack{
-                    secondview()
-                    secondView2()
-                }
+                
+                
+                secondview()
                     .environmentObject(number)
+                
                 ThirdView(number: Numbers())
                 FourthView(value: number.num)
                 //taking value from this view
@@ -56,25 +61,22 @@ struct remainingWrappers: View {
 //MARK: environment object
 struct secondview: View {
     @EnvironmentObject var number: Numbers
-    ///If give @observableObject instead Env.. then it stays 0 only
+    /// @Environment can be accessible anywhere within the app
     var body: some View {
         Text("\(number.num)")
        
     }
 }
 
-struct secondView2: View {
-    @EnvironmentObject var number: Numbers
-    var body: some View {
-        Text("\(number.num)")
-    }
-}
+
 
 //MARK: Observed object
+///Whenever view refresh it initiallize from default
 struct ThirdView: View {
     @ObservedObject var number: Numbers
     var body: some View {
         Text("\(number.num)")
+        
     }
 }
 
