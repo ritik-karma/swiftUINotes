@@ -11,7 +11,7 @@ import SwiftUI
 class Numbers: ObservableObject {
     ///* ObservableObject  is a protocol that enables data to be shared across multiple views in your app while maintaining synchronization.
     @Published var num: Int = 0
-    /// * @Published property is used inside observableObject  class to automatically notify subscribers when   a property’s value changes.
+    /// * @Published property is used inside observableObject  class to automatically notify subscribers when   a property’s value changes. (Generally it is used to pass the data but did'nt hold it like @State)
 }
 ///Created custom type with the help of ObservableObject so we can use it later
 
@@ -20,9 +20,9 @@ class Numbers: ObservableObject {
 struct remainingWrappers: View {
     @StateObject var number = Numbers()
    
-    //Can't use State because using custom type
+    //Can't use State because using custom type ('class' which is not here)
     ///State obj only init when app restart but observeObj initi whenever view is refreshed
-    ///In this case we can also use observedObj but we choose this because have to retain the value (drawback)
+   ///In this case we can also use observedObj but we choose this because have to retain the value which was generated  (drawback is in observedObj)
     
     var body: some View {
         VStack(spacing: 100){

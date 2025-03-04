@@ -183,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				F8D98AA22D009C3200DA0053 /* Frameworks */,
-				F8D98AA02D00971800DA0053 /* onDisappear.swift */,
 				F8AC81832CEDFE2C00AF604E /* Animation */,
 				F82C6D302C968135005C1530 /* actionSheet.swift */,
 				F82C6D2A2C9680FD005C1530 /* alerts.swift */,
@@ -230,6 +229,7 @@
 				F82C6D552C96836A005C1530 /* webLink.swift */,
 				F83E9ECB2CF1E7040062655C /* gradient.swift */,
 				F83E9EF32CF32F040062655C /* timer.swift */,
+				F8D98AA02D00971800DA0053 /* onDisappear.swift */,
 			);
 			path = swiftUINotes;
 			sourceTree = "<group>";
